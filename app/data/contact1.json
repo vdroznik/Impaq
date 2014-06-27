@@ -1,0 +1,10 @@
+{
+    "id": 1,
+    "name": "Name 1",
+    "surname": "Surname 1",
+    "birthdate": "1980-05-05",
+    "mobile": "+3 (123) 123-123-123",
+    "city": "City",
+    "street": "Street",
+    "house": "2"
+}

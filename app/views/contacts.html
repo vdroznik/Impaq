@@ -1,0 +1,30 @@
+<table class="table table-condensed table-striped table-hover">
+    <tr>
+        <th></th>
+        <th>name</th>
+        <th>surname</th>
+        <th>date of birth</th>
+        <th>mobile number</th>
+        <th>address</th>
+        <th>
+            <button edit-selected="/contact/edit" contacts="contacts" class="btn btn-xs btn-success"><span
+                    class="glyphicon glyphicon-edit"></span> Edit selected</button>
+        </th>
+    </tr>
+    <tr ng-repeat="contact in contacts">
+        <td><input type="checkbox" ng-model="contact.checked"></td>
+        <td>{{ contact.name }}</td>
+        <td>{{ contact.surname }}</td>
+        <td>{{ contact.birthdate }}</td>
+        <td>{{ contact.mobile }}</td>
+        <td>{{ contact.city }}</td>
+        <td>
+            <a href="#/contact/edit/{{ contact.id }}" class="btn btn-xs btn-success"><span
+                    class="glyphicon glyphicon-edit"></span> Edit</a>
+            <button class="btn btn-xs btn-danger" confirm="removeContact(contact)"
+                    confirm-message="Are you sure you want to delete {{ contact.name }}?"><span
+                    class="glyphicon glyphicon-remove"></span> Delete
+            </button>
+        </td>
+    </tr>
+</table>

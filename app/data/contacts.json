@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Name 1",
+        "surname": "Surname 1",
+        "birthdate": "1980-05-05",
+        "mobile": "+3 (123) 123-123-123",
+        "city": "City",
+        "street": "Street",
+        "house": "2"
+    },
+    {
+        "id": 2,
+        "name": "Name 2",
+        "surname": "Surname 2",
+        "birthdate": "1985-01-03",
+        "mobile": "+3 (123) 456-123-123",
+        "city": "City",
+        "street": "Street",
+        "house": "5"
+    },
+    {
+        "id": 3,
+        "name": "Name 3",
+        "surname": "Surname 3",
+        "birthdate": "1986-05-05",
+        "mobile": "+3 (123) 123-123-123",
+        "city": "City",
+        "street": "Street",
+        "house": "7"
+    },
+    {
+        "id": 4,
+        "name": "Name 4",
+        "surname": "Surname 4",
+        "birthdate": "1991-05-05",
+        "mobile": "+3 (123) 523-123-123",
+        "city": "City5",
+        "street": "Street",
+        "house": "24"
+    }
+]
