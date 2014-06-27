@@ -21,6 +21,7 @@ describe('Directive: confirm', function () {
         element = $compile(element)(scope);
 
 //        element[0].click();
+//        browserTrigger(element, 'click');
 
         expect(scope.clicked).toBeTruthy();
     }));
